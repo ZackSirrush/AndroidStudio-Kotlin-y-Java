@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">EcuacionCircunferencia</string>
+    <string name="datosgral">Matrícula: X\n Alumno: Zack Sirrush \n Asignatura: Programación móvil \n Grupo: X \n Fecha: 13 / junio / 2023</string>
+    <string name="titulomainactivity">Ecuación de la circunferencia</string>
+    <string name="coordenadas">Coordenadas del centro de la circunferencia</string>
+    <string name="longitud">Longitud del radio</string>
+    <string name="resolverbttn">Resolver</string>
+    <string name="regresarbttn">Regresar</string>
+    <string name="titulocalculo">Cálculo de la circunferencia</string>
+    <string name="ecuación">El problema se resuelve con la ecuación:</string>
+    <string name="sustitucion">Sustituyendo:</string>
+    <string name="resultados">Resultado:</string>
+
+</resources>
