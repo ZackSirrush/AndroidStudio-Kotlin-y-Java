@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Universidad Abierta y a Distancia de México
+Asignatura: Programación móvil
+Unidad 3: Aplicaciones Android con conexión a base de datos
+Actividad 2: Preparando el desarrollo de aplicaciones Android
+Alumno: Angel Isaac Nabor Torres
+Matrícula: ES1921013978
+Grupo: DS-DPMO-2301-B2-002
+Docente: Verónica Espinoza Romo -->
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InstrumentosActivity"
+    android:layout_gravity="center">
+
+    <View
+        android:id="@+id/fondo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/cardview_dark_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+    <Spinner
+        android:id="@+id/spinnerInstrumentos"
+        android:layout_width="342dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="36dp"
+        android:background="@color/white"
+        android:entries="@array/instrumentos_vacio"
+        android:padding="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/fondo"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="@+id/fondo"
+        app:layout_constraintTop_toTopOf="@+id/fondo" />
+
+    <ImageView
+        android:id="@+id/imagenInstrumento"
+        android:layout_width="181dp"
+        android:layout_height="159dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="37dp"
+        android:layout_marginBottom="12dp"
+        android:contentDescription="Imágen de instrumentos"
+        app:layout_constraintBottom_toTopOf="@+id/tvdescripcion"
+        app:layout_constraintEnd_toEndOf="@+id/fondo"
+        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintStart_toStartOf="@+id/fondo" />
+
+    <TextView
+        android:id="@+id/tvdescripcion"
+        android:layout_width="342dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="37dp"
+        android:layout_marginBottom="12dp"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/tvcaracteristicas"
+        app:layout_constraintEnd_toEndOf="@+id/fondo"
+        app:layout_constraintStart_toStartOf="@+id/fondo" />
+
+    <TextView
+        android:id="@+id/tvcaracteristicas"
+        android:layout_width="342dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="37dp"
+        android:layout_marginBottom="12dp"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/tvresena"
+        app:layout_constraintEnd_toEndOf="@+id/fondo"
+        app:layout_constraintStart_toStartOf="@+id/fondo" />
+
+    <TextView
+        android:id="@+id/tvresena"
+        android:layout_width="342dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginEnd="37dp"
+        android:layout_marginBottom="12dp"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/cbCasilladeverificacion"
+        app:layout_constraintEnd_toEndOf="@+id/fondo"
+        app:layout_constraintStart_toStartOf="@+id/fondo" />
+
+    <CheckBox
+        android:id="@+id/cbCasilladeverificacion"
+        android:layout_width="223dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="156dp"
+        android:layout_marginBottom="12dp"
+        android:text="@string/cbEstudiado"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/botonregresar"
+        app:layout_constraintEnd_toEndOf="@+id/fondo"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/fondo" />
+
+    <Button
+        android:id="@+id/botonregresar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="145dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/regresar"
+        app:layout_constraintBottom_toBottomOf="@+id/fondo"
+        app:layout_constraintEnd_toStartOf="@+id/botonHistorico"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/fondo" />
+
+    <Button
+        android:id="@+id/botonHistorico"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/historico"
+        app:layout_constraintBottom_toBottomOf="@+id/fondo"
+        app:layout_constraintEnd_toEndOf="@+id/fondo"
+        app:layout_constraintTop_toTopOf="@+id/botonregresar" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

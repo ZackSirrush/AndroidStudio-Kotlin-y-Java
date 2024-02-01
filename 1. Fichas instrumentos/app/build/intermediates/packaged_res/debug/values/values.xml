@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="caracteristicas_instrumentos">
+        <item>@string/caractsaxofon</item>
+        <item>@string/caractflauta</item>
+        <item>@string/caractclarinete</item>
+        <item>@string/caracttrompeta</item>
+        <item>@string/caractoboe</item>
+        <item>@string/caractguitarra</item>
+        <item>@string/caractarpa</item>
+        <item>@string/caractviolin</item>
+        <item>@string/caractpiano</item>
+        <item>@string/caracttimbal</item>
+        <item>@string/caracttambor</item>
+        <item>@string/caractplatillos</item>
+        <item>@string/caractbombo</item>
+        <item>@string/caractbajo_electrico</item>
+        <item>@string/caractguitarra_electrica</item>
+        <item>@string/caracttheremin</item>
+        <item>@string/caractsintetizador</item>
+    </string-array>
+    <string-array name="descripcion_instrumentos">
+        <item>@string/descripcionsaxofon</item>
+        <item>@string/descripcionflauta</item>
+        <item>@string/descripcionclarinete</item>
+        <item>@string/descripciontrompeta</item>
+        <item>@string/descripcionoboe</item>
+        <item>@string/descripcionguitarra</item>
+        <item>@string/descripcionarpa</item>
+        <item>@string/descripcionviolin</item>
+        <item>@string/descripcionpiano</item>
+        <item>@string/descripciontimbal</item>
+        <item>@string/descripciontambor</item>
+        <item>@string/descripcionplatillos</item>
+        <item>@string/descripcionbombo</item>
+        <item>@string/descripcionbajo_electrico</item>
+        <item>@string/descripcionguitarra_electrica</item>
+        <item>@string/descripciontheremin</item>
+        <item>@string/descripcionsintetizador</item>
+    </string-array>
+    <string-array name="imagenes_instrumentos">
+        <item>@drawable/saxofon</item>
+        <item>@drawable/flauta</item>
+        <item>@drawable/clarinete</item>
+        <item>@drawable/trompeta</item>
+        <item>@drawable/oboe</item>
+        <item>@drawable/guitarra</item>
+        <item>@drawable/arpa</item>
+        <item>@drawable/violin</item>
+        <item>@drawable/piano</item>
+        <item>@drawable/timbal</item>
+        <item>@drawable/tambor</item>
+        <item>@drawable/platillos</item>
+        <item>@drawable/bombo</item>
+        <item>@drawable/bajo_electrico</item>
+        <item>@drawable/guitarra_electrica</item>
+        <item>@drawable/theremin</item>
+        <item>@drawable/sintetizador</item>
+    </string-array>
+    <string-array name="instrumentos">
+        <item>saxofon</item>
+        <item>flauta</item>
+        <item>clarinete</item>
+        <item>trompeta</item>
+        <item>oboe</item>
+        <item>guitarra</item>
+        <item>arpa</item>
+        <item>violin</item>
+        <item>piano</item>
+        <item>timbal</item>
+        <item>tambor</item>
+        <item>platillos</item>
+        <item>bombo</item>
+        <item>bajo_electrico</item>
+        <item>guitarra_electrica</item>
+        <item>theremin</item>
+        <item>sintetizador</item>
+    </string-array>
+    <string-array name="instrumentos_vacio">
+        <item>Seleccione una categoría</item>
+    </string-array>
+    <string-array name="resena_instrumentos">
+        <item>@string/resenasaxofon</item>
+        <item>@string/resenaflauta</item>
+        <item>@string/resenaclarinete</item>
+        <item>@string/resenatrompeta</item>
+        <item>@string/resenaoboe</item>
+        <item>@string/resenaguitarra</item>
+        <item>@string/resenaarpa</item>
+        <item>@string/resenaviolin</item>
+        <item>@string/resenapiano</item>
+        <item>@string/resenatimbal</item>
+        <item>@string/resenatambor</item>
+        <item>@string/resenaplatillos</item>
+        <item>@string/resenabombo</item>
+        <item>@string/resenabajo_electrico</item>
+        <item>@string/resenaguitarra_electrica</item>
+        <item>@string/resenatheremin</item>
+        <item>@string/resenasintetizador</item>
+    </string-array>
+    <color name="black">#FF000000</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">FichasInstrumentos</string>
+    <string name="caractarpa">Características: Tiene un gran número de cuerdas y se toca con los dedos.</string>
+    <string name="caractbajo_electrico">Características: Se toca con los dedos o con una púa y se amplifica electrónicamente.</string>
+    <string name="caractbombo">Características: Se toca golpeando la membrana con un mazo o con el pie.</string>
+    <string name="caractclarinete">Características: Es un instrumento transpositor y tiene una tesitura amplia que abarca notas graves y agudas.</string>
+    <string name="caractflauta">Características: Es un instrumento transpositor, tiene una tesitura amplia y puede tocar tanto notas agudas como notas graves.</string>
+    <string name="caractguitarra">Características: Tiene seis cuerdas y se toca con los dedos o con una púa.</string>
+    <string name="caractguitarra_electrica">Características: Se toca con los dedos o con una púa y se amplifica electrónicamente.</string>
+    <string name="caractoboe">Características: Es un instrumento no transpositor y tiene una tesitura que abarca notas agudas y graves.</string>
+    <string name="caractpiano">Características: Se toca pulsando las teclas y produce un sonido mediante el golpeo de los martillos en las cuerdas.</string>
+    <string name="caractplatillos">Características: Se tocan chocando los platillos entre sí o con baquetas.</string>
+    <string name="caractsaxofon">Características: Es un instrumento transpositor, esto quiere decir que, su sonido no coincide con la escritura de las notas.</string>
+    <string name="caractsintetizador">Características: Permite crear una amplia variedad de sonidos y efectos utilizando diferentes controles y parámetros.</string>
+    <string name="caracttambor">Características: Se toca golpeando la membrana con las manos o con baquetas.</string>
+    <string name="caracttheremin">Características: Produce sonidos de tono y volumen controlados por la posición de las manos del intérprete.</string>
+    <string name="caracttimbal">Características: Se toca golpeando la membrana con baquetas.</string>
+    <string name="caracttrompeta">Características: Es un instrumento no transpositor y tiene una tesitura que abarca notas agudas.</string>
+    <string name="caractviolin">Características: Tiene cuatro cuerdas y se toca con un arco.</string>
+    <string name="cbEstudiado">¿Se ha estudiado el contenido?</string>
+    <string name="datosgral">Autor: Zack Sirrush \n Docente: X \n Grupo: X</string>
+    <string name="descripcionarpa">El arpa es un instrumento musical de cuerda pulsada, compuesto por una caja de resonancia, un mástil y cuerdas.</string>
+    <string name="descripcionbajo_electrico">El bajo eléctrico es un instrumento musical de cuerda, similar a la guitarra, pero con un cuerpo más grande y cuerdas más gruesas.</string>
+    <string name="descripcionbombo">El bombo es un instrumento musical de percusión, compuesto por una caja de resonancia y una membrana tensada.</string>
+    <string name="descripcionclarinete">El clarinete es un instrumento musical de viento-madera, perteneciente a la familia de los instrumentos de viento.</string>
+    <string name="descripcionflauta">La flauta travesera es un instrumento musical de viento-madera, de bisel, hecho de plata o de metal plateado, madera o de ebonita.</string>
+    <string name="descripcionguitarra">La guitarra es un instrumento musical de cuerda pulsada, compuesto por una caja de resonancia y un mástil con trastes.</string>
+    <string name="descripcionguitarra_electrica">La guitarra eléctrica es un instrumento musical de cuerda, similar a la guitarra acústica, pero con pastillas y circuitos electrónicos para amplificar su sonido.</string>
+    <string name="descripcionoboe">El oboe es un instrumento musical de viento-madera, cuyo sonido se produce al vibrar una doble caña de caña doble.</string>
+    <string name="descripcionpiano">El piano es un instrumento musical de cuerda percutida, compuesto por una caja de resonancia, cuerdas y teclas.</string>
+    <string name="descripcionplatillos">Los platillos son instrumentos musicales de percusión, compuestos por dos discos metálicos que se golpean entre sí.</string>
+    <string name="descripcionsaxofon">El saxofón es un instrumento musical de viento-madera, cónico de la familia del oboe.</string>
+    <string name="descripcionsintetizador">El sintetizador es un instrumento musical electrónico, que genera y manipula sonidos mediante la síntesis y la modulación de ondas eléctricas.</string>
+    <string name="descripciontambor">El tambor es un instrumento musical de percusión, compuesto por una membrana tensada sobre un cuerpo hueco.</string>
+    <string name="descripciontheremin">El theremín es un instrumento musical electrónico, que se toca sin contacto físico, mediante la variación de la posición de las manos cerca de antenas.</string>
+    <string name="descripciontimbal">El timbal es un instrumento musical de percusión, compuesto por una membrana tensada sobre una caja de resonancia.</string>
+    <string name="descripciontrompeta">La trompeta es un instrumento musical de viento-metal, cuyo sonido se produce al vibrar los labios del músico en la boquilla.</string>
+    <string name="descripcionviolin">El violín es un instrumento musical de cuerda frotada, compuesto por una caja de resonancia, un mástil y cuerdas.</string>
+    <string name="historico">Ver histórico</string>
+    <string name="inscuerda">Instrumentos de cuerda</string>
+    <string name="inselectricos">Instrumentos eléctricos</string>
+    <string name="inspercusion">Instrumentos de percusión</string>
+    <string name="instestudiados">Instrumentos estudiados</string>
+    <string name="instpendientes">Instrumentos pendientes</string>
+    <string name="insviento">Instrumentos de viento</string>
+    <string name="lorem_ipsum">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
+        volutpat, dolor id interdum ullamcorper, risus dolor egestas lectus, sit amet mattis purus
+        dui nec risus. Maecenas non sodales nisi, vel dictum dolor. Class aptent taciti sociosqu ad
+        litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse blandit eleifend
+        diam, vel rutrum tellus vulputate quis. Aliquam eget libero aliquet, imperdiet nisl a,
+        ornare ex. Sed rhoncus est ut libero porta lobortis. Fusce in dictum tellus.\n\n
+        Suspendisse interdum ornare ante. Aliquam nec cursus lorem. Morbi id magna felis. Vivamus
+        egestas, est a condimentum egestas, turpis nisl iaculis ipsum, in dictum tellus dolor sed
+        neque. Morbi tellus erat, dapibus ut sem a, iaculis tincidunt dui. Interdum et malesuada
+        fames ac ante ipsum primis in faucibus. Curabitur et eros porttitor, ultricies urna vitae,
+        molestie nibh. Phasellus at commodo eros, non aliquet metus. Sed maximus nisl nec dolor
+        bibendum, vel congue leo egestas.\n\n
+        Sed interdum tortor nibh, in sagittis risus mollis quis. Curabitur mi odio, condimentum sit
+        amet auctor at, mollis non turpis. Nullam pretium libero vestibulum, finibus orci vel,
+        molestie quam. Fusce blandit tincidunt nulla, quis sollicitudin libero facilisis et. Integer
+        interdum nunc ligula, et fermentum metus hendrerit id. Vestibulum lectus felis, dictum at
+        lacinia sit amet, tristique id quam. Cras eu consequat dui. Suspendisse sodales nunc ligula,
+        in lobortis sem porta sed. Integer id ultrices magna, in luctus elit. Sed a pellentesque
+        est.\n\n
+        Aenean nunc velit, lacinia sed dolor sed, ultrices viverra nulla. Etiam a venenatis nibh.
+        Morbi laoreet, tortor sed facilisis varius, nibh orci rhoncus nulla, id elementum leo dui
+        non lorem. Nam mollis ipsum quis auctor varius. Quisque elementum eu libero sed commodo. In
+        eros nisl, imperdiet vel imperdiet et, scelerisque a mauris. Pellentesque varius ex nunc,
+        quis imperdiet eros placerat ac. Duis finibus orci et est auctor tincidunt. Sed non viverra
+        ipsum. Nunc quis augue egestas, cursus lorem at, molestie sem. Morbi a consectetur ipsum, a
+        placerat diam. Etiam vulputate dignissim convallis. Integer faucibus mauris sit amet finibus
+        convallis.\n\n
+        Phasellus in aliquet mi. Pellentesque habitant morbi tristique senectus et netus et
+        malesuada fames ac turpis egestas. In volutpat arcu ut felis sagittis, in finibus massa
+        gravida. Pellentesque id tellus orci. Integer dictum, lorem sed efficitur ullamcorper,
+        libero justo consectetur ipsum, in mollis nisl ex sed nisl. Donec maximus ullamcorper
+        sodales. Praesent bibendum rhoncus tellus nec feugiat. In a ornare nulla. Donec rhoncus
+        libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus
+        vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
+    </string>
+    <string name="regresar">Regresar</string>
+    <string name="resenaarpa">El arpa se utiliza en la música clásica, el folk y la música tradicional de varios países.</string>
+    <string name="resenabajo_electrico">El bajo eléctrico se utiliza principalmente en la música popular, como el rock, el funk, el jazz y el pop.</string>
+    <string name="resenabombo">El bombo se utiliza en una amplia variedad de géneros musicales y estilos, incluyendo la música popular, la música tradicional y la música folklórica.</string>
+    <string name="resenaclarinete">El clarinete se utiliza en diversos géneros musicales como la música clásica, el jazz, la música klezmer y la música tradicional de varios países.</string>
+    <string name="resenaflauta">La flauta travesera se ha utilizado en la música clásica, la música popular y en varios géneros folklóricos alrededor del mundo.</string>
+    <string name="resenaguitarra">La guitarra es uno de los instrumentos más populares en el mundo y se utiliza en una amplia variedad de géneros musicales como el rock, el pop, el flamenco y la música clásica.</string>
+    <string name="resenaguitarra_electrica">La guitarra eléctrica se utiliza en una amplia variedad de géneros musicales, como el rock, el blues, el jazz y el pop.</string>
+    <string name="resenaoboe">El oboe se utiliza en la música clásica y en otros géneros musicales como el jazz, el rock y la música popular.</string>
+    <string name="resenapiano">El piano es uno de los instrumentos más populares en la música clásica y se utiliza en una amplia variedad de géneros y estilos musicales.</string>
+    <string name="resenaplatillos">Los platillos se utilizan en una amplia variedad de géneros musicales, incluyendo la música clásica, la música contemporánea y el rock.</string>
+    <string name="resenasaxofon">El saxofón fue inventado por Adolphe Sax en 1840. Se utiliza en una amplia variedad de géneros musicales como el jazz, el blues, la música clásica y el rock.</string>
+    <string name="resenasintetizador">El sintetizador se utiliza en una amplia gama de géneros musicales, desde la música electrónica y el pop hasta la música experimental y el jazz.</string>
+    <string name="resenatambor">El tambor se utiliza en una amplia variedad de géneros musicales y estilos, incluyendo la música popular, la música tradicional y la música folklórica.</string>
+    <string name="resenatheremin">El theremín se utiliza en la música clásica, la música experimental y en varios géneros musicales contemporáneos.</string>
+    <string name="resenatimbal">El timbal se utiliza en la música clásica, la música contemporánea y la música popular.</string>
+    <string name="resenatrompeta">La trompeta se utiliza en una amplia variedad de géneros musicales, incluyendo la música clásica, el jazz, el rock y la música popular.</string>
+    <string name="resenaviolin">El violín es uno de los instrumentos más importantes en la música clásica y se utiliza en una amplia variedad de géneros y estilos musicales.</string>
+    <string name="title_activity_historico">Histórico</string>
+    <string name="titulohistorico">Historico de instrumentos</string>
+    <string name="titulomainactivity">Fichas instrumentales</string>
+    <style name="Base.Theme.FichasInstrumentos_ES1921013978_ANNT" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.FichasInstrumentos_ES1921013978_ANNT" parent="Theme.AppCompat.Light"/>
+</resources>
