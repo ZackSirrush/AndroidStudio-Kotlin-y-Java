@@ -1,0 +1,211 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.aint.fichasinstrumentos_es1921013978_annt"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="33" />
+10
+11    <permission
+11-->[androidx.core:core:1.9.0] C:\Users\isaac\.gradle\caches\transforms-3\7c249d06b125ac47c904082494fe47ac\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+12        android:name="com.aint.fichasinstrumentos_es1921013978_annt.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+12-->[androidx.core:core:1.9.0] C:\Users\isaac\.gradle\caches\transforms-3\7c249d06b125ac47c904082494fe47ac\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+13        android:protectionLevel="signature" />
+13-->[androidx.core:core:1.9.0] C:\Users\isaac\.gradle\caches\transforms-3\7c249d06b125ac47c904082494fe47ac\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+14
+15    <uses-permission android:name="com.aint.fichasinstrumentos_es1921013978_annt.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+15-->[androidx.core:core:1.9.0] C:\Users\isaac\.gradle\caches\transforms-3\7c249d06b125ac47c904082494fe47ac\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.9.0] C:\Users\isaac\.gradle\caches\transforms-3\7c249d06b125ac47c904082494fe47ac\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+16
+17    <application
+17-->F:\Programas\AndroidStudio\FichasInstrumentos_ES1921013978_ANNT\app\src\main\AndroidManifest.xml:5:5-58:19
+18        android:allowBackup="true"
+18-->F:\Programas\AndroidStudio\FichasInstrumentos_ES1921013978_ANNT\app\src\main\AndroidManifest.xml:6:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.9.0] C:\Users\isaac\.gradle\caches\transforms-3\7c249d06b125ac47c904082494fe47ac\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+20        android:dataExtractionRules="@xml/data_extraction_rules"
+20-->F:\Programas\AndroidStudio\FichasInstrumentos_ES1921013978_ANNT\app\src\main\AndroidManifest.xml:7:9-65
+21        android:debuggable="true"
+22        android:extractNativeLibs="true"
+23        android:fullBackupContent="@xml/backup_rules"
+23-->F:\Programas\AndroidStudio\FichasInstrumentos_ES1921013978_ANNT\app\src\main\AndroidManifest.xml:8:9-54
+24        android:icon="@mipmap/ic_launcher"
+24-->F:\Programas\AndroidStudio\FichasInstrumentos_ES1921013978_ANNT\app\src\main\AndroidManifest.xml:9:9-43
+25        android:label="@string/app_name"
+25-->F:\Programas\AndroidStudio\FichasInstrumentos_ES1921013978_ANNT\app\src\main\AndroidManifest.xml:10:9-41
+26        android:roundIcon="@mipmap/ic_launcher_round"
+26-->F:\Programas\AndroidStudio\FichasInstrumentos_ES1921013978_ANNT\app\src\main\AndroidManifest.xml:11:9-54
+27        android:supportsRtl="true"
+27-->F:\Programas\AndroidStudio\FichasInstrumentos_ES1921013978_ANNT\app\src\main\AndroidManifest.xml:12:9-35
+28        android:testOnly="true"
+29        android:theme="@style/Theme.FichasInstrumentos_ES1921013978_ANNT" >
+29-->F:\Programas\AndroidStudio\FichasInstrumentos_ES1921013978_ANNT\app\src\main\AndroidManifest.xml:13:9-74
+30        <activity
+30-->F:\Programas\AndroidStudio\FichasInstrumentos_ES1921013978_ANNT\app\src\main\AndroidManifest.xml:15:9-19:81
+31            android:name="com.aint.fichasinstrumentos_es1921013978_annt.HistoricoActivity"
+31-->F:\Programas\AndroidStudio\FichasInstrumentos_ES1921013978_ANNT\app\src\main\AndroidManifest.xml:16:13-46
+32            android:exported="false"
+32-->F:\Programas\AndroidStudio\FichasInstrumentos_ES1921013978_ANNT\app\src\main\AndroidManifest.xml:17:13-37
+33            android:label="@string/title_activity_historico"
+33-->F:\Programas\AndroidStudio\FichasInstrumentos_ES1921013978_ANNT\app\src\main\AndroidManifest.xml:18:13-61
+34            android:theme="@style/Theme.FichasInstrumentos_ES1921013978_ANNT" />
+34-->F:\Programas\AndroidStudio\FichasInstrumentos_ES1921013978_ANNT\app\src\main\AndroidManifest.xml:19:13-78
+35        <activity
+35-->F:\Programas\AndroidStudio\FichasInstrumentos_ES1921013978_ANNT\app\src\main\AndroidManifest.xml:20:9-22:40
+36            android:name="com.aint.fichasinstrumentos_es1921013978_annt.InstrumentosActivity"
+36-->F:\Programas\AndroidStudio\FichasInstrumentos_ES1921013978_ANNT\app\src\main\AndroidManifest.xml:21:13-49
+37            android:exported="false" />
+37-->F:\Programas\AndroidStudio\FichasInstrumentos_ES1921013978_ANNT\app\src\main\AndroidManifest.xml:22:13-37
+38        <activity
+38-->F:\Programas\AndroidStudio\FichasInstrumentos_ES1921013978_ANNT\app\src\main\AndroidManifest.xml:23:9-25:40
+39            android:name="com.aint.fichasinstrumentos_es1921013978_annt.IElectricosActivity"
+39-->F:\Programas\AndroidStudio\FichasInstrumentos_ES1921013978_ANNT\app\src\main\AndroidManifest.xml:24:13-48
+40            android:exported="false" />
+40-->F:\Programas\AndroidStudio\FichasInstrumentos_ES1921013978_ANNT\app\src\main\AndroidManifest.xml:25:13-37
+41        <activity
+41-->F:\Programas\AndroidStudio\FichasInstrumentos_ES1921013978_ANNT\app\src\main\AndroidManifest.xml:26:9-28:40
+42            android:name="com.aint.fichasinstrumentos_es1921013978_annt.IPercusionActivity"
+42-->F:\Programas\AndroidStudio\FichasInstrumentos_ES1921013978_ANNT\app\src\main\AndroidManifest.xml:27:13-47
+43            android:exported="false" />
+43-->F:\Programas\AndroidStudio\FichasInstrumentos_ES1921013978_ANNT\app\src\main\AndroidManifest.xml:28:13-37
+44        <activity
+44-->F:\Programas\AndroidStudio\FichasInstrumentos_ES1921013978_ANNT\app\src\main\AndroidManifest.xml:29:9-31:40
+45            android:name="com.aint.fichasinstrumentos_es1921013978_annt.ICuerdaActivity"
+45-->F:\Programas\AndroidStudio\FichasInstrumentos_ES1921013978_ANNT\app\src\main\AndroidManifest.xml:30:13-44
+46            android:exported="false" />
+46-->F:\Programas\AndroidStudio\FichasInstrumentos_ES1921013978_ANNT\app\src\main\AndroidManifest.xml:31:13-37
+47        <activity
+47-->F:\Programas\AndroidStudio\FichasInstrumentos_ES1921013978_ANNT\app\src\main\AndroidManifest.xml:32:9-34:40
+48            android:name="com.aint.fichasinstrumentos_es1921013978_annt.IVientoActivity"
+48-->F:\Programas\AndroidStudio\FichasInstrumentos_ES1921013978_ANNT\app\src\main\AndroidManifest.xml:33:13-44
+49            android:exported="false" />
+49-->F:\Programas\AndroidStudio\FichasInstrumentos_ES1921013978_ANNT\app\src\main\AndroidManifest.xml:34:13-37
+50        <activity
+50-->F:\Programas\AndroidStudio\FichasInstrumentos_ES1921013978_ANNT\app\src\main\AndroidManifest.xml:35:9-37:40
+51            android:name="com.aint.fichasinstrumentos_es1921013978_annt.ElectricosActivity"
+51-->F:\Programas\AndroidStudio\FichasInstrumentos_ES1921013978_ANNT\app\src\main\AndroidManifest.xml:36:13-47
+52            android:exported="false" />
+52-->F:\Programas\AndroidStudio\FichasInstrumentos_ES1921013978_ANNT\app\src\main\AndroidManifest.xml:37:13-37
+53        <activity
+53-->F:\Programas\AndroidStudio\FichasInstrumentos_ES1921013978_ANNT\app\src\main\AndroidManifest.xml:38:9-40:40
+54            android:name="com.aint.fichasinstrumentos_es1921013978_annt.PercusionActivity"
+54-->F:\Programas\AndroidStudio\FichasInstrumentos_ES1921013978_ANNT\app\src\main\AndroidManifest.xml:39:13-46
+55            android:exported="false" />
+55-->F:\Programas\AndroidStudio\FichasInstrumentos_ES1921013978_ANNT\app\src\main\AndroidManifest.xml:40:13-37
+56        <activity
+56-->F:\Programas\AndroidStudio\FichasInstrumentos_ES1921013978_ANNT\app\src\main\AndroidManifest.xml:41:9-43:40
+57            android:name="com.aint.fichasinstrumentos_es1921013978_annt.CuerdaActivity"
+57-->F:\Programas\AndroidStudio\FichasInstrumentos_ES1921013978_ANNT\app\src\main\AndroidManifest.xml:42:13-43
+58            android:exported="false" />
+58-->F:\Programas\AndroidStudio\FichasInstrumentos_ES1921013978_ANNT\app\src\main\AndroidManifest.xml:43:13-37
+59        <activity
+59-->F:\Programas\AndroidStudio\FichasInstrumentos_ES1921013978_ANNT\app\src\main\AndroidManifest.xml:44:9-46:40
+60            android:name="com.aint.fichasinstrumentos_es1921013978_annt.VientoActivity"
+60-->F:\Programas\AndroidStudio\FichasInstrumentos_ES1921013978_ANNT\app\src\main\AndroidManifest.xml:45:13-43
+61            android:exported="false" />
+61-->F:\Programas\AndroidStudio\FichasInstrumentos_ES1921013978_ANNT\app\src\main\AndroidManifest.xml:46:13-37
+62        <activity
+62-->F:\Programas\AndroidStudio\FichasInstrumentos_ES1921013978_ANNT\app\src\main\AndroidManifest.xml:47:9-57:20
+63            android:name="com.aint.fichasinstrumentos_es1921013978_annt.MainActivity"
+63-->F:\Programas\AndroidStudio\FichasInstrumentos_ES1921013978_ANNT\app\src\main\AndroidManifest.xml:48:13-41
+64            android:exported="true"
+64-->F:\Programas\AndroidStudio\FichasInstrumentos_ES1921013978_ANNT\app\src\main\AndroidManifest.xml:49:13-36
+65            android:label="@string/app_name"
+65-->F:\Programas\AndroidStudio\FichasInstrumentos_ES1921013978_ANNT\app\src\main\AndroidManifest.xml:50:13-45
+66            android:theme="@style/Theme.FichasInstrumentos_ES1921013978_ANNT" >
+66-->F:\Programas\AndroidStudio\FichasInstrumentos_ES1921013978_ANNT\app\src\main\AndroidManifest.xml:51:13-78
+67            <intent-filter>
+67-->F:\Programas\AndroidStudio\FichasInstrumentos_ES1921013978_ANNT\app\src\main\AndroidManifest.xml:52:13-56:29
+68                <action android:name="android.intent.action.MAIN" />
+68-->F:\Programas\AndroidStudio\FichasInstrumentos_ES1921013978_ANNT\app\src\main\AndroidManifest.xml:53:17-69
+68-->F:\Programas\AndroidStudio\FichasInstrumentos_ES1921013978_ANNT\app\src\main\AndroidManifest.xml:53:25-66
+69
+70                <category android:name="android.intent.category.LAUNCHER" />
+70-->F:\Programas\AndroidStudio\FichasInstrumentos_ES1921013978_ANNT\app\src\main\AndroidManifest.xml:55:17-77
+70-->F:\Programas\AndroidStudio\FichasInstrumentos_ES1921013978_ANNT\app\src\main\AndroidManifest.xml:55:27-74
+71            </intent-filter>
+72        </activity>
+73        <activity
+73-->[androidx.compose.ui:ui-tooling:1.3.0] C:\Users\isaac\.gradle\caches\transforms-3\c2690a2ca6e48292093efa6f71fdbe05\transformed\ui-tooling-1.3.0\AndroidManifest.xml:23:9-25:39
+74            android:name="androidx.compose.ui.tooling.PreviewActivity"
+74-->[androidx.compose.ui:ui-tooling:1.3.0] C:\Users\isaac\.gradle\caches\transforms-3\c2690a2ca6e48292093efa6f71fdbe05\transformed\ui-tooling-1.3.0\AndroidManifest.xml:24:13-71
+75            android:exported="true" />
+75-->[androidx.compose.ui:ui-tooling:1.3.0] C:\Users\isaac\.gradle\caches\transforms-3\c2690a2ca6e48292093efa6f71fdbe05\transformed\ui-tooling-1.3.0\AndroidManifest.xml:25:13-36
+76        <activity
+76-->[androidx.compose.ui:ui-test-manifest:1.3.0] C:\Users\isaac\.gradle\caches\transforms-3\51415c5fd2cdae42a231df6725b38007\transformed\ui-test-manifest-1.3.0\AndroidManifest.xml:23:9-25:39
+77            android:name="androidx.activity.ComponentActivity"
+77-->[androidx.compose.ui:ui-test-manifest:1.3.0] C:\Users\isaac\.gradle\caches\transforms-3\51415c5fd2cdae42a231df6725b38007\transformed\ui-test-manifest-1.3.0\AndroidManifest.xml:24:13-63
+78            android:exported="true" />
+78-->[androidx.compose.ui:ui-test-manifest:1.3.0] C:\Users\isaac\.gradle\caches\transforms-3\51415c5fd2cdae42a231df6725b38007\transformed\ui-test-manifest-1.3.0\AndroidManifest.xml:25:13-36
+79
+80        <uses-library
+80-->[androidx.window:window:1.0.0] C:\Users\isaac\.gradle\caches\transforms-3\39536771df674fefec60da4ad5bb251b\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+81            android:name="androidx.window.extensions"
+81-->[androidx.window:window:1.0.0] C:\Users\isaac\.gradle\caches\transforms-3\39536771df674fefec60da4ad5bb251b\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+82            android:required="false" />
+82-->[androidx.window:window:1.0.0] C:\Users\isaac\.gradle\caches\transforms-3\39536771df674fefec60da4ad5bb251b\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+83        <uses-library
+83-->[androidx.window:window:1.0.0] C:\Users\isaac\.gradle\caches\transforms-3\39536771df674fefec60da4ad5bb251b\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+84            android:name="androidx.window.sidecar"
+84-->[androidx.window:window:1.0.0] C:\Users\isaac\.gradle\caches\transforms-3\39536771df674fefec60da4ad5bb251b\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+85            android:required="false" />
+85-->[androidx.window:window:1.0.0] C:\Users\isaac\.gradle\caches\transforms-3\39536771df674fefec60da4ad5bb251b\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+86
+87        <provider
+87-->[androidx.emoji2:emoji2:1.2.0] C:\Users\isaac\.gradle\caches\transforms-3\5d12368f8ff52af6221fe35dfa8a57f3\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+88            android:name="androidx.startup.InitializationProvider"
+88-->[androidx.emoji2:emoji2:1.2.0] C:\Users\isaac\.gradle\caches\transforms-3\5d12368f8ff52af6221fe35dfa8a57f3\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+89            android:authorities="com.aint.fichasinstrumentos_es1921013978_annt.androidx-startup"
+89-->[androidx.emoji2:emoji2:1.2.0] C:\Users\isaac\.gradle\caches\transforms-3\5d12368f8ff52af6221fe35dfa8a57f3\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+90            android:exported="false" >
+90-->[androidx.emoji2:emoji2:1.2.0] C:\Users\isaac\.gradle\caches\transforms-3\5d12368f8ff52af6221fe35dfa8a57f3\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+91            <meta-data
+91-->[androidx.emoji2:emoji2:1.2.0] C:\Users\isaac\.gradle\caches\transforms-3\5d12368f8ff52af6221fe35dfa8a57f3\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+92                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+92-->[androidx.emoji2:emoji2:1.2.0] C:\Users\isaac\.gradle\caches\transforms-3\5d12368f8ff52af6221fe35dfa8a57f3\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+93                android:value="androidx.startup" />
+93-->[androidx.emoji2:emoji2:1.2.0] C:\Users\isaac\.gradle\caches\transforms-3\5d12368f8ff52af6221fe35dfa8a57f3\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+94            <meta-data
+94-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\isaac\.gradle\caches\transforms-3\20dad4ffb1f9452e183dd3976c386f81\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+95                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+95-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\isaac\.gradle\caches\transforms-3\20dad4ffb1f9452e183dd3976c386f81\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+96                android:value="androidx.startup" />
+96-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\isaac\.gradle\caches\transforms-3\20dad4ffb1f9452e183dd3976c386f81\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+97            <meta-data
+97-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\isaac\.gradle\caches\transforms-3\1b9183cff1a9a13dc551b4c7caf5b456\transformed\profileinstaller-1.2.0\AndroidManifest.xml:30:13-32:52
+98                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+98-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\isaac\.gradle\caches\transforms-3\1b9183cff1a9a13dc551b4c7caf5b456\transformed\profileinstaller-1.2.0\AndroidManifest.xml:31:17-85
+99                android:value="androidx.startup" />
+99-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\isaac\.gradle\caches\transforms-3\1b9183cff1a9a13dc551b4c7caf5b456\transformed\profileinstaller-1.2.0\AndroidManifest.xml:32:17-49
+100        </provider>
+101
+102        <receiver
+102-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\isaac\.gradle\caches\transforms-3\1b9183cff1a9a13dc551b4c7caf5b456\transformed\profileinstaller-1.2.0\AndroidManifest.xml:35:9-47:20
+103            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+103-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\isaac\.gradle\caches\transforms-3\1b9183cff1a9a13dc551b4c7caf5b456\transformed\profileinstaller-1.2.0\AndroidManifest.xml:36:13-76
+104            android:directBootAware="false"
+104-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\isaac\.gradle\caches\transforms-3\1b9183cff1a9a13dc551b4c7caf5b456\transformed\profileinstaller-1.2.0\AndroidManifest.xml:37:13-44
+105            android:enabled="true"
+105-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\isaac\.gradle\caches\transforms-3\1b9183cff1a9a13dc551b4c7caf5b456\transformed\profileinstaller-1.2.0\AndroidManifest.xml:38:13-35
+106            android:exported="true"
+106-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\isaac\.gradle\caches\transforms-3\1b9183cff1a9a13dc551b4c7caf5b456\transformed\profileinstaller-1.2.0\AndroidManifest.xml:39:13-36
+107            android:permission="android.permission.DUMP" >
+107-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\isaac\.gradle\caches\transforms-3\1b9183cff1a9a13dc551b4c7caf5b456\transformed\profileinstaller-1.2.0\AndroidManifest.xml:40:13-57
+108            <intent-filter>
+108-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\isaac\.gradle\caches\transforms-3\1b9183cff1a9a13dc551b4c7caf5b456\transformed\profileinstaller-1.2.0\AndroidManifest.xml:41:13-43:29
+109                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+109-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\isaac\.gradle\caches\transforms-3\1b9183cff1a9a13dc551b4c7caf5b456\transformed\profileinstaller-1.2.0\AndroidManifest.xml:42:17-91
+109-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\isaac\.gradle\caches\transforms-3\1b9183cff1a9a13dc551b4c7caf5b456\transformed\profileinstaller-1.2.0\AndroidManifest.xml:42:25-88
+110            </intent-filter>
+111            <intent-filter>
+111-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\isaac\.gradle\caches\transforms-3\1b9183cff1a9a13dc551b4c7caf5b456\transformed\profileinstaller-1.2.0\AndroidManifest.xml:44:13-46:29
+112                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+112-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\isaac\.gradle\caches\transforms-3\1b9183cff1a9a13dc551b4c7caf5b456\transformed\profileinstaller-1.2.0\AndroidManifest.xml:45:17-85
+112-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\isaac\.gradle\caches\transforms-3\1b9183cff1a9a13dc551b4c7caf5b456\transformed\profileinstaller-1.2.0\AndroidManifest.xml:45:25-82
+113            </intent-filter>
+114        </receiver>
+115    </application>
+116
+117</manifest>
