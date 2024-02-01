@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    tools:context=".CalculoActivity">
+
+    <View
+        android:id="@+id/fondo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/cardview_dark_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/calculartitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="53dp"
+        android:layout_marginBottom="55dp"
+        android:gravity="center"
+        android:text="@string/titulocalculo"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/ecuacion"
+        app:layout_constraintEnd_toEndOf="@+id/fondo"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/fondo"
+        app:layout_constraintTop_toTopOf="@+id/fondo"
+        app:layout_constraintVertical_bias="0.781" />
+
+    <TextView
+        android:id="@+id/ecuacion"
+        android:layout_width="347dp"
+        android:layout_height="83dp"
+        android:layout_marginBottom="84dp"
+        android:gravity="center"
+        android:text="@string/ecuación"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/sustitucion"
+        app:layout_constraintEnd_toEndOf="@+id/fondo"
+        app:layout_constraintStart_toStartOf="@+id/fondo" />
+
+    <TextView
+        android:id="@+id/sustitucion"
+        android:layout_width="356dp"
+        android:layout_height="170dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginLeft="23dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginBottom="80dp"
+        android:gravity="center"
+        android:text="@string/sustitucion"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/resultados"
+        app:layout_constraintEnd_toEndOf="@+id/fondo"
+        app:layout_constraintStart_toStartOf="@+id/fondo" />
+
+    <TextView
+        android:id="@+id/resultados"
+        android:layout_width="356dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginLeft="23dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginBottom="68dp"
+        android:gravity="center"
+        android:text="@string/resultados"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/regresar"
+        app:layout_constraintEnd_toEndOf="@+id/fondo"
+        app:layout_constraintStart_toStartOf="@+id/fondo" />
+
+    <Button
+        android:id="@+id/regresar"
+        android:layout_width="217dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="192dp"
+        android:layout_marginLeft="192dp"
+        android:layout_marginEnd="192dp"
+        android:layout_marginRight="192dp"
+        android:layout_marginBottom="52dp"
+        android:text="@string/regresarbttn"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="@+id/fondo"
+        app:layout_constraintEnd_toEndOf="@+id/fondo"
+        app:layout_constraintStart_toStartOf="@+id/fondo" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

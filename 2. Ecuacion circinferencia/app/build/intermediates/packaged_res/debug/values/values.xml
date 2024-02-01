@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">EcuacionCircunferencia</string>
+    <string name="coordenadas">Coordenadas del centro de la circunferencia</string>
+    <string name="datosgral">Matrícula: X\n Alumno: Zack Sirrush \n Asignatura: Programación móvil \n Grupo: X \n Fecha: 13 / junio / 2023</string>
+    <string name="ecuación">El problema se resuelve con la ecuación:</string>
+    <string name="longitud">Longitud del radio</string>
+    <string name="regresarbttn">Regresar</string>
+    <string name="resolverbttn">Resolver</string>
+    <string name="resultados">Resultado:</string>
+    <string name="sustitucion">Sustituyendo:</string>
+    <string name="titulocalculo">Cálculo de la circunferencia</string>
+    <string name="titulomainactivity">Ecuación de la circunferencia</string>
+    <style name="Base.Theme.EcuacionCircunferencia_ES1921013978_ANNT" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.EcuacionCircunferencia_ES1921013978_ANNT" parent="Base.Theme.EcuacionCircunferencia_ES1921013978_ANNT"/>
+</resources>
